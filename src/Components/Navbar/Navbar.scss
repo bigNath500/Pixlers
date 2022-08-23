@@ -1,0 +1,16 @@
+nav {
+    transition: .3s ease-in;
+    &.navbar-light{
+        .nav-link {
+            font-weight: 500 !important;
+            color: black !important;
+        }
+    }
+
+    &.navbar-dark {
+        .nav-link {
+            font-weight: 500 !important;
+            color: white !important;
+        }
+    }
+}
