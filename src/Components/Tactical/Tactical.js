@@ -1,71 +1,34 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import Idea from '../../assets/Images/idea.jpg'
-import TeamWork from '../../assets/Images/team_work.jpg'
-import Creative from '../../assets/Images/creativity.jpg'
-import Pricing from '../../assets/Images/pricing.jpg'
-import Communicate from '../../assets/Images/communication.jpg'
-import World from '../../assets/Images/world.jpg'
-import { Link } from 'react-router-dom'
+import './Tactical.scss'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 
 const Tactical = () => {
     return (
         <>
-            <Container className='mt-5 pt-5'>
-                <Row>
-                    <Col md={4}>
-                        <div>
-                            <img src={Idea} width="100%" alt="qualities pic" />
-                        </div>
-                    </Col>
+            <section className='tactical_section pt-5 pb-5'>
+                <Container>
+                    <Row>
+                        <Col md={6}>
+                        </Col>
 
-                    <Col md={4}>
-                        <Row>
-                            <Col className='p-0' md={12}>
-                                <img src={TeamWork} width="100%" alt='team work pic' />
-                            </Col>
+                        <Col md={6}>
+                            <div className='bg-white p-5 shadow'>
+                                <h2 className='fw-bold'>GET TO KNOW <br /> <span className='text-info'>THE BEST OF US</span></h2>
 
-                            <Col className='p-0' md={12}>
-                                <div className='bg-light p-5 text-center'>
-                                    <h4 className='fw-bold'>BEST OF <span className='text-info'>OUR QAULITIES</span></h4>
+                                <p className='mt-4 text-muted'>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa.
+                                </p>
 
-                                    <p className='mt-4 text-muted small'>
-                                        Lorem ipsum dolor sit amet adipiscing elit. Aenean commodo ligula eget dolor.
-                                    </p>
-
-                                    <div className='mt-4'>
-                                        <Link to="reviews" className='text-dark'>View More</Link>
-                                    </div>
+                                <div className='mt-4'>
+                                    <Button variant='warning' className='btn d-flex align-items-center'>
+                                        View More
+                                    </Button>
                                 </div>
-                            </Col>
-                        </Row>
-                    </Col>
-
-                    <Col md={4}>
-                        <div>
-                            <img src={Creative} width="100%" alt="qualities pic" />
-                        </div>
-                    </Col>
-
-                    <Col md={4}>
-                        <div>
-                            <img src={Pricing} width="100%" alt="qualities pic" />
-                        </div>
-                    </Col>
-
-                    <Col md={4} className="p-0">
-                        <div>
-                            <img src={Communicate} width="100%" alt="qualities pic" />
-                        </div>
-                    </Col>
-
-                    <Col md={4}>
-                        <div>
-                            <img src={World} width="100%" alt="qualities pic" />
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
         </>
     )
 }
