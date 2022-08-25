@@ -17,7 +17,7 @@ const Service = () => {
                             </p>
 
                             <div className='mt-5'>
-                                <Link to="/case_study" className='text-dark fs-6'>Learn More</Link>
+                                <Link to="/case_study" className='text-dark fw-bold fs-6'>Learn More</Link>
                             </div>
                         </div>
                     </Col>
@@ -31,13 +31,13 @@ const Service = () => {
                             </p>
 
                             <div className='mt-5'>
-                                <Link to="/case_study" className='text-dark fs-6'>Learn More</Link>
+                                <Link to="/case_study" className='text-dark fw-bold fs-6'>Learn More</Link>
                             </div>
                         </div>
                     </Col>
 
                     <Col md={4} className="p-0">
-                        <div className='bg-info text-white p-5'>
+                        <div className='bg-info text-dark p-5'>
                             <h3>Printing</h3>
 
                             <p className='mt-4'>
@@ -45,7 +45,7 @@ const Service = () => {
                             </p>
 
                             <div className='mt-5'>
-                                <Link to="/case_study" className='text-dark fs-6 text-white'>Learn More</Link>
+                                <Link to="/case_study" className='text-dark fw-bold fs-6'>Learn More</Link>
                             </div>
                         </div>
                     </Col>

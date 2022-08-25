@@ -16,7 +16,7 @@ const Smart = () => {
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero sem neque sed ipsum.
                             </p>
 
-                            <Button variant='info' className='mt-4 text-white d-flex align-items-center'><aiIcons.AiOutlinePlus className='me-2' /> Discover</Button>
+                            <Button variant='info' className='mt-4 text-dark d-flex align-items-center'><aiIcons.AiOutlinePlus className='me-2 text-dark' /> Discover</Button>
                         </div>
                     </Col>
 

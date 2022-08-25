@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import ProgressBar from '../Progress Bar/ProgressBar'
 
 const Short = () => {
@@ -9,11 +9,17 @@ const Short = () => {
                 <Row>
                     <Col md={5}>
                         <div>
-                            <h1 className='fw-bold'>Who We Are</h1>
+                            <h1 className='fw-bold'>Who We Are.</h1>
 
                             <p className='mt-4 text-muted small'>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero sem neque sed ipsum.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam rhoncus.
                             </p>
+
+                            <div className='mt-4'>
+                                <Button variant='info' className='text-dark d-flex align-items-center'>
+                                    About Us
+                                </Button>
+                            </div>
                         </div>
                     </Col>
 
@@ -27,15 +33,15 @@ const Short = () => {
 
                         <ProgressBar
                             Label={"Website Design"}
-                            Value={"80%"}
-                            barVal={80}
+                            Value={"90%"}
+                            barVal={90}
                             bgColor={"warning"}
                         />
 
                         <ProgressBar
                             Label={"Graphics Design"}
-                            Value={"90%"}
-                            barVal={90}
+                            Value={"95%"}
+                            barVal={95}
                             bgColor={"dark"}
                         />
                     </Col>

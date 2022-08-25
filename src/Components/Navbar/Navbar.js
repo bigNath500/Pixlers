@@ -30,7 +30,7 @@ function BasicExample() {
                     <giIcons.GiMountains className='text-info me-2 fs-1' /> <span className='fs-1'>Fl<span className='text-warning'>o</span>x</span>
                 </Navbar.Brand>
 
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle className='bg-warning shadow-sm border-0' aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Link className="nav-link me-3" to="/">Home</Link>
