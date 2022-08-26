@@ -5,7 +5,6 @@ import Smart from '../../Components/Being Smart/Smart'
 import Tactical from '../../Components/Tactical/Tactical'
 import Short from '../../Components/Short About/Short'
 import BookApp from '../../Components/Appointment/BookApp'
-import Socials from '../../Components/Socials/Socials'
 
 const Home = () => {
     return (
@@ -17,7 +16,6 @@ const Home = () => {
             <Tactical />
             <Short />
             <BookApp />
-            <Socials />
         </>
     )
 }
