@@ -10,10 +10,10 @@ const Service = () => {
                 <Row className='service_row'>
                     <Col md={4} className="p-0">
                         <div className='bg-warning p-5 text-dark'>
-                            <h3>Branding</h3>
+                            <h3>Logo Design</h3>
 
                             <p className='mt-4'>
-                                Lorem ipsum dolor sit amet adipiscing elit. Aenean commodo ligula eget dolor.
+                                Creating & Designing beautiful / unique logos for startups.
                             </p>
 
                             <div className='mt-5'>
@@ -24,10 +24,10 @@ const Service = () => {
 
                     <Col md={4} className="p-0">
                         <div className='bg-light p-5'>
-                            <h3>Designing</h3>
+                            <h3>Graphics Designing</h3>
 
                             <p className='mt-4'>
-                                Lorem ipsum dolor sit amet adipiscing elit. Aenean commodo ligula eget dolor.
+                                We create flyers, banners, complimentary cards and many more.
                             </p>
 
                             <div className='mt-5'>
@@ -38,10 +38,10 @@ const Service = () => {
 
                     <Col md={4} className="p-0">
                         <div className='bg-info text-dark p-5'>
-                            <h3>Printing</h3>
+                            <h3>Web Developement</h3>
 
                             <p className='mt-4'>
-                                Lorem ipsum dolor sit amet adipiscing elit. Aenean commodo ligula eget dolor.
+                                We design and develope websites that use mordern technologies.
                             </p>
 
                             <div className='mt-5'>

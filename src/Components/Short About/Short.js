@@ -12,7 +12,7 @@ const Short = () => {
                             <h1 className='fw-bold'>Who We Are.</h1>
 
                             <p className='mt-4 text-muted small'>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam rhoncus.
+                                We are a website design agency that makes a site look good. They use design programs to create visual elements. Website designers usually have expertise in UI, or user interface, which means they strategically design a site that's intuitive and easy for visitors to navigate.
                             </p>
 
                             <div className='mt-4'>

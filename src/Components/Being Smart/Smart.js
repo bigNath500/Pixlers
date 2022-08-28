@@ -9,11 +9,11 @@ const Smart = () => {
             <Container className='mt-5 pt-5 pb-5 mb-5'>
                 <Row>
                     <Col md={5}>
-                        <div>
+                        <div className='main_smart'>
                             <h1 className='fw-bold'>Being Smart</h1>
 
                             <p className='text-muted mt-4 small'>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero sem neque sed ipsum.
+                                Creating unique designs for our clients is our main priority that's why we use designers and developers that are smart at creating ideas that are unique and fits your expectations and aim.
                             </p>
 
                             <Button variant='info' className='mt-4 text-dark d-flex align-items-center'><aiIcons.AiOutlinePlus className='me-2 text-dark' /> Discover</Button>

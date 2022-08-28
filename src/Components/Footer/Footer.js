@@ -14,10 +14,10 @@ const Footer = () => {
                                 <h5 className='text-white text-uppercase fw-bold'>About Us</h5>
 
                                 <p className='mt-3 text-white small'>
-                                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+                                    Creating unique designs for our clients is our main priority that's why we use designers and developers that are smart at creating ideas that are unique and fits your expectations and aim.
                                 </p>
 
-                                <div className='mt-3'>
+                                <div className='mt-2'>
                                     <a href='www.facebook.com' className='me-3 text-white text-decoration-none fs-3'>
                                         <aiIcons.AiFillFacebook />
                                     </a>
@@ -135,7 +135,7 @@ const Footer = () => {
                     </Row>
 
                     <div className='mt-4 border-secondary border-top text-center text-muted pt-3'>
-                        &Copy; 2022, All Rights Reserved.
+                        Copyright &copy; 2022, All Rights Reserved.
                     </div>
                 </Container>
             </footer>

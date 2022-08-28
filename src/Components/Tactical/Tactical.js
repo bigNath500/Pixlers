@@ -16,7 +16,7 @@ const Tactical = () => {
                                 <h2 className='fw-bold'>GET TO KNOW <br /> <span className='text-info'>THE BEST OF US</span></h2>
 
                                 <p className='mt-4 text-muted'>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa.
+                                    Want to know who you're working with why not get to know our team and possibly communicate with them.
                                 </p>
 
                                 <div className='mt-4'>

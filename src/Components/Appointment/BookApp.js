@@ -13,7 +13,7 @@ const BookApp = () => {
                                 <h2 className='fw-bold text-uppercase'>Book An <br /> <span className='text-info'>Appointment Today</span></h2>
 
                                 <p className='mt-4 text-muted'>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa.
+                                    Interested in collaborating with us? Why not book an appointment today to get the best of our designers and developers working for you.
                                 </p>
 
                                 <div className='mt-4'>
